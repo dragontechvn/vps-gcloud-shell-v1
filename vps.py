@@ -1,7 +1,8 @@
 import os
 
-print("Starting something...")
 cmd = 'sudo apt-get update'
+os.system(cmd)
+cmd = 'sudo apt-get autoremove'
 os.system(cmd)
 cmd = 'sudo apt-get install firefox-esr'
 os.system(cmd)
